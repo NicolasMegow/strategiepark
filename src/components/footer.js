@@ -2,6 +2,7 @@
 import PropTypes from "prop-types"
 import Emoji from "../components/emoji"
 import { Box, Flex, jsx } from "theme-ui"
+import { Link as GatsbyLink } from "gatsby"
 
 const Footer = ({ siteTitle }) => (
   <footer
@@ -17,7 +18,10 @@ const Footer = ({ siteTitle }) => (
         <a href="https://www.gatsbyjs.com">Gatsby</a>.
       </p>
       <Box mx="auto" />
-      <p>Secret placeholder</p>
+      <div>
+        <GatsbyLink to="/impressum">Impressum</GatsbyLink>
+        <GatsbyLink to="/datenschutz">Datenschutz</GatsbyLink>
+      </div>
     </Flex>
   </footer>
 )

@@ -14,9 +14,7 @@ const IndexPage = () => (
       <Emoji symbol="🌎" label="world" />
       <br></br>Hello world!
     </h1>
-    <Text variant="Subhead">
-      This is a Gatsby starter featuring a prebuilt theme from ThemeUI.
-    </Text>
+    <Text variant="Subhead">Let's get this show on the road!</Text>
     <Grid gap={2} columns={[1, null, 2]} sx={{ mt: 4 }}>
       <Box>
         <h2>Easy customization</h2>
