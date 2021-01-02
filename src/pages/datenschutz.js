@@ -50,58 +50,73 @@ const DatenschutzPage = () => (
       Wenn Sie das auf der Webseite angebotene Kontaktformular nutzen, benötige
       ich von Ihnen eine valide E-Mailadresse sowie Ihren Vor- und Nachnamen.
       Diese Felder sind als Pflichtfelder mit einem Sternchen gekennzeichnet.
-      Weitere Daten werden nicht erhoben. Die Speicherung dient alleine dem
-      Zweck, Ihre Anfrage zu beantworten. Die von Ihnen zur Verfügung gestellten
-      personenbezogenen Daten, wie Name, Adresse oder E-Mail-Adresse werden nur
-      intern verwendet. Datenweitergabe an Dritte; Zweckänderung An Dritte
-      werden Daten nur weitergegeben, wenn dies zur Vertragserfüllung notwendig
-      ist und/oder ich im Einzelfall dazu gesetzlich verpflichtet bin. Teilweise
-      bediene ich mich externer Dienstleister, um Ihre Daten zu verarbeiten.
-      Soweit diese Dienstleister in den USA ihren Sitz haben, teile ich Ihnen
-      dies im Zusammenhang mit der jeweiligen Funktion mit. Sollen Ihre Daten
-      für andere Zwecke verwendet werden, werde ich Sie zuvor informieren und
-      die Daten nur weitergeben, soweit Sie vorher ausdrücklich Ihre
-      Einwilligung dazu erklärt haben. Google Analytics und soziale Medien
-      werden auf meiner Seite bewusst nicht eingesetzt. Cookies Diese Seite
-      verwendet Cookies. Cookies sind kleine Textdateien, die auf Ihrem Rechner
-      gespeichert werden und durch welche der Stelle, die den Cookie setzt,
-      bestimmte Informationen zufließen. Sie dienen dazu das Internetangebot
-      nutzerfreundlicher und effektiver zu gestalten oder/und Ihnen die
-      Navigation auf unserer Webseite zu erleichtern. Diese Seite nutzt Cookies
-      in folgendem Umfang: – Transiente Cookies (temporärer Einsatz) –
-      Persistente Cookies (zeitlich beschränkter Einsatz) – Flash-Cookies
-      (dauerhafter Einsatz) Selbstverständlich können Sie unsere Website auch
-      nutzen, ohne dass Sie Cookies akzeptieren. Sie können auch Ihre
-      Browser-Einstellungen entsprechend Ihren Wünschen konfigurieren und
+      Weitere Daten werden nicht erhoben. <br></br>Die Speicherung dient alleine
+      dem Zweck, Ihre Anfrage zu beantworten. Die von Ihnen zur Verfügung
+      gestellten personenbezogenen Daten, wie Name, Adresse oder E-Mail-Adresse
+      werden nur intern verwendet.{" "}
+    </p>
+    <h3>Datenweitergabe an Dritte; Zweckänderung</h3>
+    <p>
+      An Dritte werden Daten nur weitergegeben, wenn dies zur Vertragserfüllung
+      notwendig ist und/oder ich im Einzelfall dazu gesetzlich verpflichtet bin.
+      Teilweise bediene ich mich externer Dienstleister, um Ihre Daten zu
+      verarbeiten. Soweit diese Dienstleister in den USA ihren Sitz haben, teile
+      ich Ihnen dies im Zusammenhang mit der jeweiligen Funktion mit. Sollen
+      Ihre Daten für andere Zwecke verwendet werden, werde ich Sie zuvor
+      informieren und die Daten nur weitergeben, soweit Sie vorher ausdrücklich
+      Ihre Einwilligung dazu erklärt haben. Google Analytics und soziale Medien
+      werden auf meiner Seite bewusst nicht eingesetzt.{" "}
+    </p>
+    <h3>Cookies</h3>
+    <p>
+      Diese Seite verwendet Cookies. Cookies sind kleine Textdateien, die auf
+      Ihrem Rechner gespeichert werden und durch welche der Stelle, die den
+      Cookie setzt, bestimmte Informationen zufließen. Sie dienen dazu das
+      Internetangebot nutzerfreundlicher und effektiver zu gestalten oder/und
+      Ihnen die Navigation auf unserer Webseite zu erleichtern. <br></br>Diese
+      Seite nutzt Cookies in folgendem Umfang:
+      <br></br>– Transiente Cookies (temporärer Einsatz) <br></br>– Persistente
+      Cookies (zeitlich beschränkter Einsatz) <br></br>– Flash-Cookies
+      (dauerhafter Einsatz) <br></br>Selbstverständlich können Sie unsere
+      Website auch nutzen, ohne dass Sie Cookies akzeptieren. Sie können auch
+      Ihre Browser-Einstellungen entsprechend Ihren Wünschen konfigurieren und
       insgesamt z.B. die Annahme von Third-Party-Cookies oder allen Cookies
       ablehnen oder bereits gespeicherte Cookies löschen. Sollten Sie Cookies
       nicht akzeptieren, beachten Sie bitte, dass in diesem Fall unser Angebot
       unter Umständen nicht fehlerfrei funktioniert. Die gespeicherten
       Informationen werden getrennt von eventuell weiter bei uns angegebenen
       Daten gespeichert. Die Daten der Cookies werden nicht mit Ihren weiteren
-      Daten verknüpft. Speicherdauer der personenbezogenen Daten Ich speichere
-      personenbezogene Daten für die Dauer der jeweiligen gesetzlichen
-      Aufbewahrungsfrist. Nach Ablauf der Frist erfolgt eine routinemäßige
-      Löschung der Daten, sofern nicht eine Erforderlichkeit für eine
-      Vertragsanbahnung oder die Vertragserfüllung besteht. Sofern die Daten der
-      Nutzer nicht gelöscht werden, weil sie für andere und gesetzlich zulässige
-      Zwecke erforderlich sind, wird deren Verarbeitung eingeschränkt. Die Daten
-      werden dementsprechend gesperrt und nicht für andere Zwecke verarbeitet.
-      Das gilt z.B. für Daten der Nutzer, die aus handels- oder
+      Daten verknüpft.
+    </p>
+    <h3>Speicherdauer der personenbezogenen Daten</h3>
+    <p>
+      Ich speichere personenbezogene Daten für die Dauer der jeweiligen
+      gesetzlichen Aufbewahrungsfrist. Nach Ablauf der Frist erfolgt eine
+      routinemäßige Löschung der Daten, sofern nicht eine Erforderlichkeit für
+      eine Vertragsanbahnung oder die Vertragserfüllung besteht. Sofern die
+      Daten der Nutzer nicht gelöscht werden, weil sie für andere und gesetzlich
+      zulässige Zwecke erforderlich sind, wird deren Verarbeitung eingeschränkt.
+      Die Daten werden dementsprechend gesperrt und nicht für andere Zwecke
+      verarbeitet. Das gilt z.B. für Daten der Nutzer, die aus handels- oder
       steuerrechtlichen Gründen aufbewahrt werden müssen.
-      Sicherheitsinformationen Ich bin sehr bemüht, Ihre personenbezogenen Daten
-      durch Ergreifung aller technischen und organisatorischen Möglichkeiten so
-      zu verarbeiten, dass die Vorschriften der Datenschutzgesetze eingehalten
-      werden und damit diese Daten zu schützen. Diese Webseite bzw. die
-      Kommunikation über die Webseite mit mir ist per HTTPS verschlüsselt.
-      Auskunft, Berichtigung, Sperrung & Löschung Ich gebe gerne Auskunft über
-      Ihre bei mir gespeicherten persönlichen Daten, sowie zu deren Herkunft,
-      Empfängern oder Kategorien von Empfängern, an die diese Daten
-      weitergegeben werden und den Zweck der Speicherung. Dieses Recht können
-      Sie jederzeit geltend machen sowie gegebenenfalls ein Recht auf
-      Berichtigung, Sperrung und Löschung Ihrer Daten. Erteilte Einwilligungen
-      können Sie jederzeit wiederrufen. Senden Sie hierzu eine Anfrage per
-      E-Mail und verwenden Sie bitte in der Betreffzeile den Betreff
+    </p>
+    <h3>Sicherheitsinformationen</h3>
+    <p>
+      Ich bin sehr bemüht, Ihre personenbezogenen Daten durch Ergreifung aller
+      technischen und organisatorischen Möglichkeiten so zu verarbeiten, dass
+      die Vorschriften der Datenschutzgesetze eingehalten werden und damit diese
+      Daten zu schützen. Diese Webseite bzw. die Kommunikation über die Webseite
+      mit mir ist per HTTPS verschlüsselt.
+    </p>
+    <h3>Auskunft, Berichtigung, Sperrung & Löschung</h3>
+    <p>
+      Ich gebe gerne Auskunft über Ihre bei mir gespeicherten persönlichen
+      Daten, sowie zu deren Herkunft, Empfängern oder Kategorien von Empfängern,
+      an die diese Daten weitergegeben werden und den Zweck der Speicherung.
+      Dieses Recht können Sie jederzeit geltend machen sowie gegebenenfalls ein
+      Recht auf Berichtigung, Sperrung und Löschung Ihrer Daten. Erteilte
+      Einwilligungen können Sie jederzeit wiederrufen. Senden Sie hierzu eine
+      Anfrage per E-Mail und verwenden Sie bitte in der Betreffzeile den Betreff
       „Datenschutz“.
     </p>
     <p>
