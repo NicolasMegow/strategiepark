@@ -12,7 +12,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Strom width="100%" height="18rem" />
-    <h1>Hello world!</h1>
+    <h1>Hello world! My name is Nicolas Megow.</h1>
     <Text variant="Subhead">
       Die höchsten Gewinne liegen abseits vom Mainstream.
     </Text>
