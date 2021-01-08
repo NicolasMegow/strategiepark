@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import PropTypes from "prop-types"
 import Emoji from "../components/emoji"
-import { Box, Flex, jsx } from "theme-ui"
+import { Flex, jsx } from "theme-ui"
 import { Link as GatsbyLink } from "gatsby"
 
 const Footer = ({ siteTitle }) => (

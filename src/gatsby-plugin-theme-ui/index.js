@@ -64,7 +64,7 @@ export default {
       fontFamily: "body",
       fontSize: 0,
       h1: {
-        fontSize: 4,
+        fontSize: 3,
         fontFamily: "heading",
         fontWeight: "heading",
         color: "primary",
