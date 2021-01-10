@@ -6,6 +6,7 @@ import SEO from "../components/seo"
 import { Grid, Box, Flex, Text, jsx } from "theme-ui"
 
 import Strom from "../images/svg/Strom.svg"
+import RefRow from "../components/ref-row"
 
 const IndexPage = () => (
   <Layout>
@@ -20,6 +21,7 @@ const IndexPage = () => (
         entsprechend steinig. Seit 2014 stärke ich Menschen auf solchen Wegen.
       </Text>
     </Box>
+    <RefRow />
     <Grid gap={2} columns={[1, null, 2]} sx={{ mt: 4 }}>
       <Box>
         <h2>Easy customization</h2>
