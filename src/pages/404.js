@@ -11,11 +11,11 @@ const NotFoundPage = () => (
     <SEO title="404: Not found" />
     <h1>
       <Emoji symbol="😱" label="scream" />
-      <br></br>404: Not Found
+      <br></br>Fehler 404
     </h1>
-    <p>Whoops, you just hit a route that doesn't exist... the sadness.</p>
+    <p>Whoops, da scheint ein Fehler passiert zu sein...</p>
     <Button to="/" as={Link}>
-      Go back to the homepage
+      Zurück zur Startseite
     </Button>
   </Layout>
 )

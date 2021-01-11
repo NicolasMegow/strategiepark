@@ -27,7 +27,7 @@ const Footer = ({ siteTitle }) => {
       }}
     >
       <Flex>
-        <p>
+        <div>
           <Img
             fluid={data.favicon.childImageSharp.fluid}
             alt="Strategiepark Elefant"
@@ -37,12 +37,14 @@ const Footer = ({ siteTitle }) => {
               margin: ".5rem 0",
             }}
           />
-          <strong>{siteTitle}</strong> © {new Date().getFullYear()}, built with{" "}
-          <Emoji symbol="🍩" label="love" /> &{` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>.<br></br>
-          <GatsbyLink to="/impressum">Impressum</GatsbyLink> |{" "}
-          <GatsbyLink to="/datenschutz">Datenschutz</GatsbyLink>
-        </p>
+          <p>
+            <strong>{siteTitle}</strong> © {new Date().getFullYear()}, built
+            with <Emoji symbol="🍩" label="love" /> &{` `}
+            <a href="https://www.gatsbyjs.com">Gatsby</a>.<br></br>
+            <GatsbyLink to="/impressum">Impressum</GatsbyLink> |{" "}
+            <GatsbyLink to="/datenschutz">Datenschutz</GatsbyLink>
+          </p>
+        </div>
       </Flex>
     </footer>
   )

@@ -18,7 +18,7 @@ const IndexPage = () => (
       </h1>
       <Text variant="Subhead">
         Die höchsten Gewinne liegen abseits vom Mainstream. Der Weg dahin ist
-        entsprechend steinig. Seit 2014 stärke ich Menschen auf solchen Wegen.
+        voller Hindernisse. Seit 2014 stärke ich Menschen auf solchen Wegen.
       </Text>
     </Box>
     <RefRow />
