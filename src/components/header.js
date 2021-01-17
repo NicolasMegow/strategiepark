@@ -20,7 +20,7 @@ const Header = ({ siteTitle }) => (
       <Box mx="auto" />
       <Box>
         <a
-          href={`https://www.linkedin.com/company/crewsby/`}
+          href={`https://www.linkedin.com/in/nicolas-megow/`}
           target="_blank"
           rel="noreferrer noopener"
           aria-label="LinkedIn"
@@ -28,7 +28,7 @@ const Header = ({ siteTitle }) => (
           <FontAwesomeIcon icon={["fab", "linkedin"]} size="2x" fixedWidth />
         </a>
         <a
-          href={`https://twitter.com/crewsbyteams`}
+          href={`https://twitter.com/NicolasMegow`}
           target="_blank"
           rel="noreferrer noopener"
           aria-label="Twitter"

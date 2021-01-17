@@ -10,9 +10,11 @@ import Footer from "./footer"
 
 import { library, config } from "@fortawesome/fontawesome-svg-core"
 import { fab } from "@fortawesome/free-brands-svg-icons"
+import { fas } from "@fortawesome/pro-solid-svg-icons"
 
 config.autoAddCss = false
 library.add(fab)
+library.add(fas)
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
