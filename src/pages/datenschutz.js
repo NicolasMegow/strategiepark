@@ -4,7 +4,6 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import { jsx } from "theme-ui"
-import Emoji from "../components/emoji"
 
 const DatenschutzPage = () => (
   <Layout>
