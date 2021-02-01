@@ -28,16 +28,30 @@ export const query = graphql`
 const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Business Coaching" />
-    <Strom width="100%" height="20rem" />
-    <Box sx={{ maxWidth: "56rem" }}>
-      <h1>
-        Business Coaching<br></br>für Menschen mit ungewöhnlichen Ideen.
-      </h1>
-      <Text variant="Subhead">
-        Die interessanten Chancen liegen abseits vom Mainstream. Seit 2014
-        stärke ich Menschen, die tolle Unternehmen noch besser machen.
-      </Text>
-    </Box>
+    <Grid gap={3} columns={[1, null, 2]} sx={{ mt: 4 }}>
+      <Box sx={{ maxWidth: "56rem" }}>
+        <h1>
+          Business Coaching<br></br>für Menschen mit ungewöhnlichen Ideen.
+        </h1>
+        <Text variant="Subhead">
+          Die interessanten Chancen liegen abseits vom Mainstream. Seit 2014
+          stärke ich Menschen, die tolle Unternehmen noch besser machen.
+        </Text>
+      </Box>
+      <Flex style={{ alignItems: "center", justifyContent: "center" }}>
+        <Img
+          fluid={data.imageNicolas.childImageSharp.fluid}
+          alt="Nicolas Megow"
+          style={{
+            width: "20rem",
+            height: "20rem",
+            borderRadius: "50%",
+            margin: "1rem",
+          }}
+        />
+      </Flex>
+    </Grid>
+
     <RefRow />
     <Box sx={{ maxWidth: "56rem", mt: 4 }}>
       <h2>Here’s to the crazy ones!</h2>
@@ -126,7 +140,8 @@ const IndexPage = ({ data }) => (
         gut voran, mache aber auch Fehler.{" "}
       </p>
     </Box>
-    <Grid gap={3} columns={[1, null, 2]}>
+    <Strom width="100%" height="24rem" />
+    <Grid gap={3} columns={[1, null, 3]}>
       <Box>
         <h3>Ich bin ein professioneller Coach.</h3>
         <p>
@@ -135,28 +150,20 @@ const IndexPage = ({ data }) => (
           Ambassador.
         </p>
         <p>→ Aber meine Promotion ist nach 6 Jahren noch nicht fertig.</p>
+      </Box>
+      <Box>
         <h3>Ich mache Zusammenhänge sichtbar.</h3>
         <p>
           Visual Facilitator & Graphic Recorder. Gerne auch handfest mit LEGO
           Serious Play.
         </p>
         <p>→ Und ich habe sehr lange geübt bevor meine Schrift lesbar wurde.</p>
+      </Box>
+      <Box>
         <h3>Ich gehe selber neue Wege.</h3>
         <p>TecUP, garage33, Crewsby.</p>
         <p>→ Trotzdem habe ich aus Gier ca 8.000€ verzockt.</p>
       </Box>
-      <Flex style={{ alignItems: "center", justifyContent: "center" }}>
-        <Img
-          fluid={data.imageNicolas.childImageSharp.fluid}
-          alt="Nicolas Megow"
-          style={{
-            width: "20rem",
-            height: "20rem",
-            borderRadius: "50%",
-            margin: "1rem",
-          }}
-        />
-      </Flex>
     </Grid>
     <Box sx={{ maxWidth: "56rem", mt: 4 }}>
       <h2>180€ pro Stunde, min. 6 Stunden (zzgl. USt.)</h2>

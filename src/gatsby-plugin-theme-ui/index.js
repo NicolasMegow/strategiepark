@@ -8,7 +8,7 @@ export default {
     accent: "#D6FFFC",
     muted: "#E0E0E0",
   },
-  space: [0, ".8rem", "1rem", "2rem", "4rem", "8rem"],
+  space: [0, ".8rem", "1rem", "2rem", "6rem", "8rem"],
   fonts: {
     body:
       'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
