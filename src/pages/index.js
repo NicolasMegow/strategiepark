@@ -22,6 +22,20 @@ export const query = graphql`
         }
       }
     }
+    imageVisuals: file(relativePath: { eq: "GraphicRecording.jpeg" }) {
+      childImageSharp {
+        fluid(maxWidth: 1200, maxHeight: 1200) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    imageWorkshop: file(relativePath: { eq: "StartupWorkshop.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 1200, maxHeight: 1200) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
   }
 `
 
@@ -45,7 +59,7 @@ const IndexPage = ({ data }) => (
           style={{
             width: "20rem",
             height: "20rem",
-            borderRadius: "50%",
+            borderRadius: "10%",
             margin: "1rem",
           }}
         />
@@ -61,7 +75,7 @@ const IndexPage = ({ data }) => (
         schaden.
       </p>
     </Box>
-    <Grid gap={3} columns={[1, null, 3]} sx={{ mt: 2 }}>
+    <Grid gap={3} columns={[1, 2, 3]} sx={{ mt: 2 }}>
       <Box>
         <h3>
           <FontAwesomeIcon icon={["fas", "radar"]} size="lg" />
@@ -177,6 +191,16 @@ const IndexPage = ({ data }) => (
     </Box>
     <Grid gap={3} columns={[1, null, 2]} sx={{ mt: 2 }}>
       <Box>
+        <Img
+          fluid={data.imageWorkshop.childImageSharp.fluid}
+          alt="StartupWorkshop"
+          style={{
+            width: "20rem",
+            height: "20rem",
+            borderRadius: "10%",
+            margin: "2rem 0rem",
+          }}
+        />
         <p>
           Super war die intensive Betreuung und Gegensteuerung des Prozesses,
           dies hat den Erfolg abgesichert.
@@ -200,6 +224,16 @@ const IndexPage = ({ data }) => (
         </p>
       </Box>
       <Box>
+        <Img
+          fluid={data.imageVisuals.childImageSharp.fluid}
+          alt="Graphic Recording"
+          style={{
+            width: "20rem",
+            height: "20rem",
+            borderRadius: "10%",
+            margin: "2rem 0rem",
+          }}
+        />
         <p>
           Es werden effektive Werkzeuge/ Methoden eingesetzt, um in kürzester
           Zeit optimale Ergebnisse zu erzielen.
