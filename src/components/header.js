@@ -27,18 +27,6 @@ const Header = ({ siteTitle }) => (
         >
           <FontAwesomeIcon icon={["fab", "linkedin"]} size="2x" fixedWidth />
         </a>
-        <a
-          href={`https://twitter.com/NicolasMegow`}
-          target="_blank"
-          rel="noreferrer noopener"
-          aria-label="Twitter"
-        >
-          <FontAwesomeIcon
-            icon={["fab", "twitter-square"]}
-            size="2x"
-            fixedWidth
-          />
-        </a>
       </Box>
     </Flex>
   </header>

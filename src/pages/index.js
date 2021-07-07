@@ -7,7 +7,6 @@ import SEO from "../components/seo"
 
 import { Grid, Box, Flex, Text, jsx } from "theme-ui"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import Emoji from "../components/emoji"
 
 import Strom from "../images/svg/Strom.svg"
 import RefRow from "../components/ref-row"
@@ -41,14 +40,14 @@ export const query = graphql`
 
 const IndexPage = ({ data }) => (
   <Layout>
-    <SEO title="Business Coaching" />
+    <SEO title="Coaching für Innovationsprojekte" />
     <Grid gap={3} columns={[1, null, 2]} sx={{ mt: 4 }}>
       <Box sx={{ maxWidth: "56rem" }}>
         <h1>
-          Business Coaching<br></br>für Menschen mit ungewöhnlichen Ideen.
+          Coaching<br></br>für Innovationsprojekte.
         </h1>
         <Text variant="Subhead">
-          Die interessanten Chancen liegen abseits vom Mainstream. Seit 2014
+          Die interessanten Chancen liegen jenseits des Status Quo. Seit 2014
           stärke ich Menschen, die tolle Unternehmen noch besser machen.
         </Text>
       </Box>
@@ -70,78 +69,75 @@ const IndexPage = ({ data }) => (
     <Box sx={{ maxWidth: "56rem", mt: 4 }}>
       <h2>Here’s to the crazy ones!</h2>
       <p>
-        Neue Wege zu gehen ist eine Mischung aus kognitivem Marathon und
-        emotionaler Achterbahnfahrt. Da kann ein wenig Unterstützung nicht
-        schaden.
+        Innovationsprojekte sind eine Kombination aus kognitivem Marathon und
+        emotionaler Achterbahnfahrt. Da ist ein wenig Unterstützung völlig
+        normal. Als Coach stärke ich Führungskräfte und Teams dabei Innovationen
+        schnell und erfolgreich in den Markt zu bringen.
       </p>
     </Box>
-    <Grid gap={3} columns={[1, 2, 3]} sx={{ mt: 2 }}>
+    <Grid gap={3} columns={[1, null, 3]} sx={{ mt: 2 }}>
       <Box>
         <h3>
-          <FontAwesomeIcon icon={["fas", "radar"]} size="lg" />
-          <br></br>Chancen strukturieren
+          <FontAwesomeIcon icon={["fas", "shipping-fast"]} size="lg" />
+          <br></br>Agil arbeiten
         </h3>
-        <p></p>
+        <p>
+          Chancen strukturieren<br></br>Prototypen entwicklen<br></br>
+          Marktexperimente durchführen
+        </p>
+      </Box>
+      <Box>
+        <h3>
+          <FontAwesomeIcon icon={["fas", "route"]} size="lg" />
+          <br></br>Entscheider einbinden
+        </h3>
+        <p>
+          Erwartungen steuern
+          <br></br>Hindernisse beseitigen
+          <br></br>Rückschläge nutzen
+        </p>
       </Box>
       <Box>
         <h3>
           <FontAwesomeIcon icon={["fas", "charging-station"]} size="lg" />
-          <br></br>Ausgleich schaffen
-        </h3>
-        <p>Bewusst Abschalten und Energie tanken</p>
-      </Box>
-      <Box>
-        <h3>
-          <FontAwesomeIcon icon={["fas", "map-marker-check"]} size="lg" />
-          <br></br>Erwartungen steuern
-        </h3>
-        <p>Potenziale realistisch kommunizieren</p>
-      </Box>
-      <Box>
-        <h3>
-          <FontAwesomeIcon icon={["fas", "map-signs"]} size="lg" />
-          <br></br>Rückschläge nutzen
-        </h3>
-        <p>Innehalten und neu aufstellen</p>
-      </Box>
-      <Box>
-        <h3>
-          <FontAwesomeIcon icon={["fas", "unlock-alt"]} size="lg" />
           <br></br>Teams entfesseln
         </h3>
-        <p>Teamarbeit zum Selbstläufer machen</p>
-      </Box>
-      <Box>
-        <h3>
-          <FontAwesomeIcon icon={["fas", "truck-plow"]} size="lg" />
-          <br></br>Hindernisse beseitigen
-        </h3>
-        <p></p>
-      </Box>
-      <Box>
-        <h3>
-          <FontAwesomeIcon icon={["fas", "shoe-prints"]} size="lg" />
-          <br></br>Geduld üben
-        </h3>
-        <p></p>
+        <p>
+          Unsicherheit aushalten<br></br>Stärken entwickeln<br></br>Ausgleich
+          schaffen
+        </p>
       </Box>
     </Grid>
     <Grid gap={3} columns={[1, null, 2]} sx={{ mt: 4 }}>
       <Box>
         <h2>Hilfe zur Selbsthilfe</h2>
-        <p>
-          <ol>
-            <li>
-              <h3>Kostenloses Kennenlernen.</h3>
-            </li>
-            <li>
-              <h3>Coaching-Stunde(n)</h3>
-            </li>
-            <li>
-              <h3>Automatisiertes Feedback</h3>
-            </li>
-          </ol>
-        </p>
+        <p></p>
+        <ul>
+          <li>
+            <h3>1. Kostenloses Kennenlernen</h3>
+            <p>
+              Unser Start ist komplett unverbindlich. Wir gucken in einer
+              Stunde, ob die Chemie stimmt und wie ich dich bei der Erreichung
+              deiner Ziele unterstützen kann.
+            </p>
+          </li>
+          <li>
+            <h3>2. Coaching-Stunde(n)</h3>
+            <p>
+              In der Regel treffen wir uns für 1-2 Stunden, gerne komplett
+              online. Bei Bedarf können wir auch Tagesworkshops oder komplette
+              Wochensprints durchführen.
+            </p>
+          </li>
+          <li>
+            <h3>3. Automatisiertes Feedback</h3>
+            <p>
+              Im Nachgang zu jedem Coaching erhältst du einen kurzen Fragebogen.
+              Der Fragebogen hilft dir zu das Coaching zu reflektieren und gibt
+              mir Feedback zur Verbesserung.
+            </p>
+          </li>
+        </ul>
       </Box>
       <Flex style={{ alignItems: "center", justifyContent: "center" }}>
         <Stärkungen width="100%" height="18rem" />
@@ -150,43 +146,77 @@ const IndexPage = ({ data }) => (
     <Box sx={{ maxWidth: "56rem", mt: 4 }}>
       <h2>Kurz zu mir: Ich bin Nicolas.</h2>
       <p>
-        Ich arbeite täglich an mir, um besser zu werden. Dabei komme ich ganz
-        gut voran, mache aber auch Fehler.{" "}
+        Ich arbeite täglich an mir, um besser zu werden. Dabei probiere ich
+        durchaus unkonventionelle Wege aus.
       </p>
     </Box>
     <Strom width="100%" height="24rem" />
     <Grid gap={3} columns={[1, null, 3]}>
       <Box>
-        <h3>Ich bin ein professioneller Coach.</h3>
+        <h3>Ich denke langfristig.</h3>
         <p>
-          Schwerpunkt im Studium: die Steuerung von Unternehmen. Ausgebildeter
-          Business Coach & Trainer. Scrum Master. Aktiv als Lean Startup
-          Ambassador.
+          Nachhaltige Veränderung braucht Zeit, weil sie von innen heraus
+          wächst. Dafür stehe ich als Coach und als Gärtner. Mein Weg begann
+          2005 und geht noch mindestens 3 Jahrzehnte. Inzwischen umfasst meine
+          Sammlung über 200 handverlesene Sachbücher.
         </p>
-        <p>→ Aber meine Promotion ist nach 6 Jahren noch nicht fertig.</p>
       </Box>
       <Box>
-        <h3>Ich mache Zusammenhänge sichtbar.</h3>
+        <h3>Ich arbeite agil.</h3>
         <p>
-          Visual Facilitator & Graphic Recorder. Gerne auch handfest mit LEGO
-          Serious Play.
+          Aktuell<br></br>
+          <a
+            href="https://prof-schumann.de"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            SCHUMANN
+          </a>
+          : Scrum Master für 3 Squads<br></br>
+          <a
+            href="https://crewsby.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Crewsby
+          </a>
+          : Entwicklung eines Softwareprodukts<br></br>
         </p>
-        <p>→ Und ich habe sehr lange geübt bevor meine Schrift lesbar wurde.</p>
+        <p>
+          Davor<br></br>
+          <a
+            href="https://garage33.de"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            garage33
+          </a>
+          : Innovationsquartier für Mittelständler<br></br>
+          <a href="https://tecup.de" target="_blank" rel="noopener noreferrer">
+            TecUP
+          </a>
+          : Neugestaltung der Gründerförderung
+        </p>
       </Box>
       <Box>
-        <h3>Ich gehe selber neue Wege.</h3>
-        <p>TecUP, garage33, Crewsby.</p>
-        <p>→ Trotzdem habe ich aus Gier ca 8.000€ verzockt.</p>
+        <h3>Ich coache professionell.</h3>
+        <p>
+          2009 fing ich an zu coachen, um einer Freundin zu helfen. Seitdem habe
+          ich Ausbildungen zum Business Coach & Trainer absolviert. Dazu kommen
+          Weiterbildungen als Scrum Master, Visual Facilitator, Graphic Recorder
+          & Facilitator für LEGO Serious Play.
+        </p>
       </Box>
     </Grid>
     <Box sx={{ maxWidth: "56rem", mt: 4 }}>
-      <h2>180€ pro Stunde, min. 6 Stunden (zzgl. USt.)</h2>
+      <h2>200€ pro Stunde, min. 6 Stunden (zzgl. USt.)</h2>
       <p>
-        Mir ist es sehr wichtig mein Geschäftsmodell klar zu kommunizieren: Du
-        musst deinen Weg selber gehen. Daran kann ich nichts ändern. Aber es
-        gibt in der Regel genügend Ansatzpunkte für Unterstützung. Wie meine
-        Hilfe konkret aussieht und wie lange wir zusammenarbeiten klären wir
-        gemeinsam.
+        Mir ist es sehr wichtig mein Geschäftsmodell klar zu kommunizieren: Den
+        Marathon und die Achterbahnfahrt musst du selbst bestehen. Daran kann
+        ich nichts ändern. Aber es gibt genügend Möglichkeiten zur
+        Unterstützung. Wie meine Hilfe konkret aussieht und wie lange wir
+        zusammenarbeiten klären wir gemeinsam - natürlich mit regelmäßiger
+        Anpassung an deinen Bedarf.
       </p>
     </Box>
     <Grid gap={3} columns={[1, null, 2]} sx={{ mt: 2 }}>
@@ -214,7 +244,7 @@ const IndexPage = ({ data }) => (
           <strong>— Carolin (Führungskraft)</strong>
         </p>
         <p>
-          Man merkt, dass Hr. Megow über langjährige Erfahrung im Team-Coaching
+          Man merkt, dass Nicolas über langjährige Erfahrung im Team-Coaching
           verfügt. Dadurch war er in der Lage in kurzer Zeit ein sehr gutes
           Gefühl für die relevanten Themen zu bekommen, an welchen für die
           Weiterentwicklung unseres neu formierten Teams gearbeitet werden
@@ -250,8 +280,8 @@ const IndexPage = ({ data }) => (
         <p>
           Wir haben einen Disrupt Workshop zur Findung innovativer
           Geschäftsmodelle im FinTech/PropTech-Bereich unter Moderation von
-          Nicolas Megow durchgeführt. Das hat super geklappt und die Ergebnisse
-          waren hervorragend.
+          Nicolas durchgeführt. Das hat super geklappt und die Ergebnisse waren
+          hervorragend.
           <br></br>
           <strong>— Jens (Geschäftsführer)</strong>
         </p>

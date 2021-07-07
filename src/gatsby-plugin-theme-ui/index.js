@@ -36,11 +36,13 @@ export default {
       fontSize: 1,
       fontWeight: "bold",
       textTransform: "uppercase",
+      textDecoration: "none",
       color: "primary",
     },
     nav: {
       fontWeight: "bold",
       textTransform: "uppercase",
+      textDecoration: "none",
       color: "primary",
       ml: 2,
     },
@@ -77,6 +79,10 @@ export default {
         "&:hover": {
           color: "primary",
         },
+      },
+      ul: {
+        listStyleType: "none",
+        paddingInline: 0,
       },
     },
   },

@@ -3,7 +3,6 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
-import Emoji from "../components/emoji"
 import { Flex, jsx } from "theme-ui"
 import { Link as GatsbyLink } from "gatsby"
 
@@ -37,10 +36,13 @@ const Footer = ({ siteTitle }) => {
               margin: ".5rem 0",
             }}
           />
+
+          <a href="mailto:Coaching@Strategiepark.de">
+            <strong>Coaching@Stragiepark.de</strong>
+          </a>
           <p>
-            <strong>{siteTitle}</strong> © {new Date().getFullYear()}, built
-            with <Emoji symbol="🍩" label="love" /> &{` `}
-            <a href="https://www.gatsbyjs.com">Gatsby</a>.<br></br>
+            {siteTitle} © {new Date().getFullYear()}
+            <br></br>
             <GatsbyLink to="/impressum">Impressum</GatsbyLink> |{" "}
             <GatsbyLink to="/datenschutz">Datenschutz</GatsbyLink>
           </p>
