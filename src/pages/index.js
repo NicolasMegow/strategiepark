@@ -111,7 +111,7 @@ const IndexPage = ({ data }) => (
     <Grid gap={3} columns={[1, null, 2]} sx={{ mt: 4 }}>
       <Box>
         <h2>Hilfe zur Selbsthilfe</h2>
-        <p></p>
+        <p>yy</p>
         <ul>
           <li>
             <h3>1. Kostenloses Kennenlernen</h3>
