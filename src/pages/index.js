@@ -44,6 +44,7 @@ const IndexPage = ({ data }) => (
     <Grid gap={3} columns={[1, null, 2]} sx={{ mt: 4 }}>
       <Box sx={{ maxWidth: "56rem" }}>
         <h1>
+          <br></br>
           Coaching<br></br>für Innovationsprojekte.
         </h1>
         <Text variant="Subhead">
@@ -108,10 +109,16 @@ const IndexPage = ({ data }) => (
         </p>
       </Box>
     </Grid>
-    <Grid gap={3} columns={[1, null, 2]} sx={{ mt: 4 }}>
+    <Box sx={{ maxWidth: "56rem", mt: 4 }}>
+      <h2>Hilfe zur Selbsthilfe</h2>
+      <p>
+        Mein Coaching dreht sich komplett um deine Weiterentwicklung. Ich freue
+        mich dabei helfen zu können, arbeite dabei aber zielstrebig darauf hin
+        nicht mehr gebraucht zu werden.
+      </p>
+    </Box>
+    <Grid gap={3} columns={[1, null, 2]} sx={{ mt: 1 }}>
       <Box>
-        <h2>Hilfe zur Selbsthilfe</h2>
-        <p>yy</p>
         <ul>
           <li>
             <h3>1. Kostenloses Kennenlernen</h3>
