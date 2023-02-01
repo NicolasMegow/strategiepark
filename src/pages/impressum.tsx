@@ -1,13 +1,11 @@
 /** @jsx jsx */
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Layout from "../components/layout";
 
-import { jsx } from "theme-ui"
+import { jsx } from "theme-ui";
 
 const ImpressumPage = () => (
   <Layout>
-    <SEO title="Home" />
     <h1>Impressum</h1>
     <p>
       Dieses Impressum wurde von weiteren von mir betriebenen Seiten verlinkt
@@ -21,8 +19,8 @@ const ImpressumPage = () => (
     <h3>Adresse</h3>
     <p>
       Strategiepark UG (haftungsbeschränkt)<br></br>
-      Arndtstrasse 26<br></br>
-      33100 Paderborn
+      Bartloffer Stieg 43<br></br>
+      37359 Effelder
     </p>
     <h3>Kontakt</h3>
     <p>info@strategiepark.de</p>
@@ -49,6 +47,6 @@ const ImpressumPage = () => (
       Verbraucherschlichtungsstelle teilzunehmen.
     </p>
   </Layout>
-)
+);
 
-export default ImpressumPage
+export default ImpressumPage;

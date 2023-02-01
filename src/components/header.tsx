@@ -1,22 +1,20 @@
 /** @jsx jsx */
-import { Link as GatsbyLink } from "gatsby"
-import PropTypes from "prop-types"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { Link as GatsbyLink } from "gatsby";
+import PropTypes from "prop-types";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import { Box, Flex, Link, jsx } from "theme-ui"
+import { Box, Flex, Text, jsx } from "theme-ui";
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <header
     sx={{
       mb: 2,
     }}
   >
     <Flex sx={{ pt: 2, pb: 2, alignItems: "center" }}>
-      <Link to="/" as={GatsbyLink} variant="logo">
-        {" "}
-        {siteTitle}
-      </Link>
-
+      <GatsbyLink to="/">
+        <Text variant="logo">{"Strategiepark"}</Text>
+      </GatsbyLink>
       <Box mx="auto" />
       <Box>
         <a
@@ -30,14 +28,14 @@ const Header = ({ siteTitle }) => (
       </Box>
     </Flex>
   </header>
-)
+);
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
-}
+};
 
 Header.defaultProps = {
   siteTitle: ``,
-}
+};
 
-export default Header
+export default Header;

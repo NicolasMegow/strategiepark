@@ -10,8 +10,7 @@ export default {
   },
   space: [0, ".8rem", "1rem", "2rem", "6rem", "8rem"],
   fonts: {
-    body:
-      'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
+    body: 'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
     heading: "system-ui, sans-serif",
     monospace: "Menlo, monospace",
   },
@@ -26,12 +25,10 @@ export default {
   },
   variants: {},
   text: {
-    Subhead: {
+    subhead: {
       fontSize: 1,
       mb: 2,
     },
-  },
-  links: {
     logo: {
       fontSize: 1,
       fontWeight: "bold",
@@ -39,6 +36,8 @@ export default {
       textDecoration: "none",
       color: "primary",
     },
+  },
+  links: {
     nav: {
       fontWeight: "bold",
       textTransform: "uppercase",
@@ -86,4 +85,4 @@ export default {
       },
     },
   },
-}
+};

@@ -1,14 +1,11 @@
 /** @jsx jsx */
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Layout from "../components/layout";
 
-import { jsx } from "theme-ui"
+import { jsx } from "theme-ui";
 
 const DatenschutzPage = () => (
   <Layout>
-    <SEO title="Datenschutz" />
-
     <h1>Hinweise zum Datenschutz</h1>
     <p>
       Ich nehme den Schutz persönlicher Daten sehr ernst und halte mich an die
@@ -20,7 +17,7 @@ const DatenschutzPage = () => (
     <h2>Verantwortliche Stelle</h2>
     <p>
       Strategiepark UG (haftungsbeschränkt)<br></br> Nicolas Megow<br></br>{" "}
-      Arndtstrasse 26<br></br> 33100 Paderborn 0049
+      Bartloffer Stieg 43<br></br> 37359 Effelder
       <br></br>info@strategiepark.de
     </p>
     <h3>Log-Dateien</h3>
@@ -123,6 +120,6 @@ const DatenschutzPage = () => (
       Fachanwaltskanzlei für ITRecht – zur Verfügung gestellt.
     </p>
   </Layout>
-)
+);
 
-export default DatenschutzPage
+export default DatenschutzPage;
