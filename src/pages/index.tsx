@@ -1,16 +1,15 @@
 /** @jsx jsx */
-import * as React from "react";
-import { HeadFC, PageProps } from "gatsby";
-import { StaticImage } from "gatsby-plugin-image";
+import * as React from "react"
+import { HeadFC, PageProps } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 
-import Layout from "../components/layout";
+import Layout from "../components/layout"
 
-import { Grid, Box, Flex, Text, jsx } from "theme-ui";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Grid, Box, Flex, Text, jsx } from "theme-ui"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
-import Strom from "../images/svg/Strom.svg";
-import RefRow from "../components/ref-row";
-import Stärkungen from "../images/svg/Stärkungen.svg";
+import RefRow from "../components/ref-row"
+import Stärkungen from "../images/svg/Stärkungen.svg"
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
@@ -233,9 +232,9 @@ const IndexPage: React.FC<PageProps> = () => {
         </Box>
       </Grid>
     </Layout>
-  );
-};
+  )
+}
 
-export default IndexPage;
+export default IndexPage
 
-export const Head: HeadFC = () => <title>Lean Startup Training</title>;
+export const Head: HeadFC = () => <title>Lean Startup Training</title>
